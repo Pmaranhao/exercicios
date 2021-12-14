@@ -19,7 +19,7 @@ public class Exercicio10 {
         System.out.println("Digite seu sexo (h) ou (m): ");
         String sexo = scan.next();
 
-        if (sexo == "h"){
+        if (sexo.equals("h")){
             float homem = (float) ((72.7 * altura) - 58.0);
             System.out.println("Seu peso ideal é " + homem);
         } else {
