@@ -6,5 +6,9 @@ pelos dois.
 print('Digite um número inteiro: ')
 numero = int(input())
 
-if numero % 2 == 0 or numero % 2 == 0:
+if int == type(numero) and numero % 3 == 0 and numero % 5 != 0:
     print('Divisível por 3 ou 5')
+elif int == type(numero) and numero % 5 == 0 and numero % 3 != 0:
+    print('Divisível por 3 ou 5')
+else:
+    print('Número não é inteiro ou é divisível por 3 e 5 ao mesmo tempo.')
